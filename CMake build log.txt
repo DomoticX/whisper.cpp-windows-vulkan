@@ -1,0 +1,912 @@
+MSBuild version 18.4.0+6e61e96ac for .NET Framework
+
+  Checking File Globs
+  1>Checking Build System
+  1>Creating directories for 'vulkan-shaders-gen'
+  No download step for 'vulkan-shaders-gen'
+  Building Custom Rule E:/whisper.cpp/ggml/src/ggml-vulkan/CMakeLists.txt
+  No update step for 'vulkan-shaders-gen'
+  No patch step for 'vulkan-shaders-gen'
+  Performing configure step for 'vulkan-shaders-gen'
+  -- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+  -- The C compiler identification is MSVC 19.50.35726.0
+  -- The CXX compiler identification is MSVC 19.50.35726.0
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe - skipped
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe - skipped
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+  -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+  -- Looking for pthread_create in pthreads
+  -- Looking for pthread_create in pthreads - not found
+  -- Looking for pthread_create in pthread
+  -- Looking for pthread_create in pthread - not found
+  -- Found Threads: TRUE
+  -- Enabling coopmat glslc support
+  -- Enabling coopmat2 glslc support
+  -- Enabling dot glslc support
+  -- Enabling bfloat16 glslc support
+  -- Configuring done (9.9s)
+  -- Generating done (0.0s)
+CUSTOMBUILD : CMake warning :  [E:\whisper.cpp\build\ggml\src\ggml-vulkan\vulkan-shaders-gen.vcxproj]
+    Manually-specified variables were not used by the project:
+
+      CMAKE_BUILD_TYPE
+
+
+  -- Build files have been written to: E:/whisper.cpp/build/ggml/src/ggml-vulkan/vulkan-shaders-gen-prefix/src/vulkan-shaders-gen-build
+  Performing build step for 'vulkan-shaders-gen'
+  MSBuild version 18.4.0+6e61e96ac for .NET Framework
+
+    1>Checking Build System
+    Building Custom Rule E:/whisper.cpp/ggml/src/ggml-vulkan/vulkan-shaders/CMakeLists.txt
+    vulkan-shaders-gen.cpp
+    vulkan-shaders-gen.vcxproj -> E:\whisper.cpp\build\ggml\src\ggml-vulkan\vulkan-shaders-gen-prefix\src\vulkan-shaders-gen-build\Release\vulkan-shaders-gen.exe
+    Building Custom Rule E:/whisper.cpp/ggml/src/ggml-vulkan/vulkan-shaders/CMakeLists.txt
+  Performing install step for 'vulkan-shaders-gen'
+  -- Installing: E:/whisper.cpp/build/Release/./vulkan-shaders-gen.exe
+  Completed 'vulkan-shaders-gen'
+  Building Custom Rule E:/whisper.cpp/examples/deprecation-warning/CMakeLists.txt
+  deprecation-warning.cpp
+  bench.vcxproj -> E:\whisper.cpp\build\bin\Release\bench.exe
+  Building Custom Rule E:/whisper.cpp/ggml/src/CMakeLists.txt
+  ggml.c
+  ggml.cpp
+  ggml-alloc.c
+  ggml-quants.c
+  Generating Code...
+  ggml-backend.cpp
+  ggml-opt.cpp
+  ggml-threading.cpp
+  gguf.cpp
+  Generating Code...
+     Creating library E:/whisper.cpp/build/ggml/src/Release/ggml-base.lib and object E:/whisper.cpp/build/ggml/src/Release/ggml-base.exp
+  ggml-base.vcxproj -> E:\whisper.cpp\build\bin\Release\ggml-base.dll
+  Building Custom Rule E:/whisper.cpp/ggml/src/CMakeLists.txt
+  ggml-cpu.c
+  ggml-cpu.cpp
+  repack.cpp
+  hbm.cpp
+  traits.cpp
+  amx.cpp
+  mmq.cpp
+  binary-ops.cpp
+  unary-ops.cpp
+  vec.cpp
+  ops.cpp
+  Generating Code...
+  quants.c
+  quants.c
+  repack.cpp
+     Creating library E:/whisper.cpp/build/ggml/src/Release/ggml-cpu.lib and object E:/whisper.cpp/build/ggml/src/Release/ggml-cpu.exp
+  ggml-cpu.vcxproj -> E:\whisper.cpp\build\bin\Release\ggml-cpu.dll
+  4>Generate vulkan shaders for concat.comp
+  1>Generate vulkan shaders header
+  3>Generate vulkan shaders for argsort.comp
+  2>Generate vulkan shaders for add1.comp
+  26>Generate vulkan shaders for opt_step_sgd.comp
+  1>Generate vulkan shaders for abs.comp
+  7>Generate vulkan shaders for cumsum.comp
+  6>Generate vulkan shaders for copy_transpose.comp
+  5>Generate vulkan shaders for conv_transpose_1d.comp
+  32>Generate vulkan shaders for soft_max_large1.comp
+  12>Generate vulkan shaders for dequant_q5_1.comp
+  24>Generate vulkan shaders for mul_mat_vecq.comp
+  25>Generate vulkan shaders for multi_add.comp
+  22>Generate vulkan shaders for mul_mat_vec_iq3_xxs.comp
+  14>Generate vulkan shaders for fill.comp
+  17>Generate vulkan shaders for gelu_quick.comp
+  26>Generate vulkan shaders for pad.comp
+  30>Generate vulkan shaders for round.comp
+  3>Generate vulkan shaders for argsort_large.comp
+  12>Generate vulkan shaders for dequant_q5_k.comp
+  2>Generate vulkan shaders for add_id.comp
+  1>Generate vulkan shaders for acc.comp
+  32>Generate vulkan shaders for soft_max_large2.comp
+  4>Generate vulkan shaders for contig_copy.comp
+  7>Generate vulkan shaders for cumsum_multipass1.comp
+  6>Generate vulkan shaders for cos.comp
+  5>Generate vulkan shaders for copy.comp
+  25>Generate vulkan shaders for neg.comp
+  14>Generate vulkan shaders for flash_attn.comp
+  17>Generate vulkan shaders for get_rows.comp
+  26>Generate vulkan shaders for pool2d.comp
+  22>Generate vulkan shaders for mul_mat_vec_nc.comp
+  30>Generate vulkan shaders for scale.comp
+  1>Generate vulkan shaders for add.comp
+  32>Generate vulkan shaders for soft_max_large3.comp
+  17>Generate vulkan shaders for get_rows_quant.comp
+  2>Generate vulkan shaders for arange.comp
+  3>Generate vulkan shaders for ceil.comp
+  22>Generate vulkan shaders for mul_mat_vec_p021.comp
+  26>Generate vulkan shaders for quantize_q8_1.comp
+  14>Generate vulkan shaders for flash_attn_cm1.comp
+  5>Generate vulkan shaders for copy_from_quant.comp
+  7>Generate vulkan shaders for cumsum_multipass2.comp
+  6>Generate vulkan shaders for count_equal.comp
+  4>Generate vulkan shaders for conv2d_dw.comp
+  25>Generate vulkan shaders for norm.comp
+  12>Generate vulkan shaders for dequant_q6_k.comp
+  30>Generate vulkan shaders for sigmoid.comp
+  32>Generate vulkan shaders for softplus.comp
+  23>Generate vulkan shaders for mul_mat_vec_q3_k.comp
+  23>Generate vulkan shaders for mul_mat_vec_q4_k.comp
+  23>Generate vulkan shaders for mul_mat_vec_q5_k.comp
+  15>Generate vulkan shaders for flash_attn_mask_opt.comp
+  15>Generate vulkan shaders for flash_attn_split_k_reduce.comp
+  15>Generate vulkan shaders for floor.comp
+  15>Generate vulkan shaders for geglu.comp
+  2>Generate vulkan shaders for argmax.comp
+  22>Generate vulkan shaders for mul_mat_vec_q2_k.comp
+  17>Generate vulkan shaders for group_norm.comp
+  14>Generate vulkan shaders for flash_attn_cm2.comp
+  31>Generate vulkan shaders for silu_back.comp
+  31>Generate vulkan shaders for sin.comp
+  31>Generate vulkan shaders for soft_max.comp
+  11>Generate vulkan shaders for dequant_q4_0.comp
+  11>Generate vulkan shaders for dequant_q4_1.comp
+  11>Generate vulkan shaders for dequant_q4_k.comp
+  11>Generate vulkan shaders for dequant_q5_0.comp
+  3>Generate vulkan shaders for clamp.comp
+  5>Generate vulkan shaders for copy_to_quant.comp
+  4>Generate vulkan shaders for conv2d_mm.comp
+  7>Generate vulkan shaders for dequant_f32.comp
+  12>Generate vulkan shaders for dequant_q8_0.comp
+  30>Generate vulkan shaders for silu.comp
+  24>Generate vulkan shaders for mul_mm.comp
+  25>Generate vulkan shaders for opt_step_adamw.comp
+  6>Generate vulkan shaders for count_experts.comp
+  23>Generate vulkan shaders for mul_mat_vec_q6_k.comp
+  21>Generate vulkan shaders for mul_mat_vec_iq2_s.comp
+  21>Generate vulkan shaders for mul_mat_vec_iq2_xs.comp
+  21>Generate vulkan shaders for mul_mat_vec_iq2_xxs.comp
+  21>Generate vulkan shaders for mul_mat_vec_iq3_s.comp
+  9>Generate vulkan shaders for dequant_iq2_xxs.comp
+  9>Generate vulkan shaders for dequant_iq3_s.comp
+  9>Generate vulkan shaders for dequant_iq3_xxs.comp
+  9>Generate vulkan shaders for dequant_iq4_nl.comp
+  13>Generate vulkan shaders for diag.comp
+  13>Generate vulkan shaders for diag_mask_inf.comp
+  10>Generate vulkan shaders for dequant_iq4_xs.comp
+  10>Generate vulkan shaders for dequant_mxfp4.comp
+  18>Generate vulkan shaders for hardsigmoid.comp
+  13>Generate vulkan shaders for div.comp
+  10>Generate vulkan shaders for dequant_q2_k.comp
+  18>Generate vulkan shaders for hardswish.comp
+  10>Generate vulkan shaders for dequant_q3_k.comp
+  13>Generate vulkan shaders for exp.comp
+  18>Generate vulkan shaders for im2col.comp
+  16>Generate vulkan shaders for geglu_erf.comp
+  16>Generate vulkan shaders for geglu_quick.comp
+  18>Generate vulkan shaders for im2col_3d.comp
+  16>Generate vulkan shaders for gelu.comp
+  16>Generate vulkan shaders for gelu_erf.comp
+  28>Generate vulkan shaders for rms_norm.comp
+  28>Generate vulkan shaders for rms_norm_back.comp
+  28>Generate vulkan shaders for rms_norm_partials.comp
+  28>Generate vulkan shaders for roll.comp
+  8>Generate vulkan shaders for dequant_iq1_m.comp
+  8>Generate vulkan shaders for dequant_iq1_s.comp
+  8>Generate vulkan shaders for dequant_iq2_s.comp
+  8>Generate vulkan shaders for dequant_iq2_xs.comp
+  20>Generate vulkan shaders for mul_mat_split_k_reduce.comp
+  20>Generate vulkan shaders for mul_mat_vec.comp
+  20>Generate vulkan shaders for mul_mat_vec_iq1_m.comp
+  27>Generate vulkan shaders for reglu.comp
+  27>Generate vulkan shaders for relu.comp
+  19>Generate vulkan shaders for l2_norm.comp
+  29>Generate vulkan shaders for rope_multi.comp
+  29>Generate vulkan shaders for rope_neox.comp
+  29>Generate vulkan shaders for rope_norm.comp
+  29>Generate vulkan shaders for rope_vision.comp
+  19>Generate vulkan shaders for leaky_relu.comp
+  19>Generate vulkan shaders for log.comp
+  19>Generate vulkan shaders for mul.comp
+  27>Generate vulkan shaders for repeat.comp
+  27>Generate vulkan shaders for repeat_back.comp
+  31>Generate vulkan shaders for soft_max_back.comp
+  26>Generate vulkan shaders for ssm_scan.comp
+  26>Generate vulkan shaders for step.comp
+  15>Generate vulkan shaders for swiglu.comp
+  1>Generate vulkan shaders for solve_tri.comp
+  1>Generate vulkan shaders for sqrt.comp
+  2>Generate vulkan shaders for trunc.comp
+  11>Generate vulkan shaders for topk_argsort.comp
+  1>Generate vulkan shaders for square.comp
+  15>Generate vulkan shaders for swiglu_oai.comp
+  9>Generate vulkan shaders for xielu.comp
+  11>Generate vulkan shaders for topk_moe.comp
+  26>Generate vulkan shaders for sub.comp
+  2>Generate vulkan shaders for upscale.comp
+  20>Generate vulkan shaders for mul_mat_vec_iq1_s.comp
+  1>Generate vulkan shaders for ssm_conv.comp
+  15>Generate vulkan shaders for tanh.comp
+  11>Generate vulkan shaders for topk_nary_search.comp
+  2>Generate vulkan shaders for wkv6.comp
+  26>Generate vulkan shaders for sum_rows.comp
+  11>Generate vulkan shaders for tri.comp
+  15>Generate vulkan shaders for timestep_embedding.comp
+  2>Generate vulkan shaders for wkv7.comp
+  24>Generate vulkan shaders for mul_mm_cm2.comp
+  24>Generate vulkan shaders for mul_mmq.comp
+  Building Custom Rule E:/whisper.cpp/ggml/src/ggml-vulkan/CMakeLists.txt
+  ggml-vulkan.cpp
+  abs.comp.cpp
+  acc.comp.cpp
+  add.comp.cpp
+  add1.comp.cpp
+  add_id.comp.cpp
+  arange.comp.cpp
+  argmax.comp.cpp
+  argsort.comp.cpp
+  argsort_large.comp.cpp
+  ceil.comp.cpp
+  clamp.comp.cpp
+  concat.comp.cpp
+  contig_copy.comp.cpp
+  conv2d_dw.comp.cpp
+  conv2d_mm.comp.cpp
+  conv_transpose_1d.comp.cpp
+  copy.comp.cpp
+  copy_from_quant.comp.cpp
+  copy_to_quant.comp.cpp
+  copy_transpose.comp.cpp
+  cos.comp.cpp
+  count_equal.comp.cpp
+  count_experts.comp.cpp
+  cumsum.comp.cpp
+  cumsum_multipass1.comp.cpp
+  cumsum_multipass2.comp.cpp
+  dequant_f32.comp.cpp
+  dequant_iq1_m.comp.cpp
+  dequant_iq1_s.comp.cpp
+  dequant_iq2_s.comp.cpp
+  dequant_iq2_xs.comp.cpp
+  dequant_iq2_xxs.comp.cpp
+  dequant_iq3_s.comp.cpp
+  dequant_iq3_xxs.comp.cpp
+  dequant_iq4_nl.comp.cpp
+  dequant_iq4_xs.comp.cpp
+  dequant_mxfp4.comp.cpp
+  dequant_q2_k.comp.cpp
+  dequant_q3_k.comp.cpp
+  dequant_q4_0.comp.cpp
+  dequant_q4_1.comp.cpp
+  dequant_q4_k.comp.cpp
+  dequant_q5_0.comp.cpp
+  dequant_q5_1.comp.cpp
+  dequant_q5_k.comp.cpp
+  dequant_q6_k.comp.cpp
+  dequant_q8_0.comp.cpp
+  diag.comp.cpp
+  diag_mask_inf.comp.cpp
+  div.comp.cpp
+  exp.comp.cpp
+  fill.comp.cpp
+  flash_attn.comp.cpp
+  flash_attn_cm1.comp.cpp
+  flash_attn_cm2.comp.cpp
+  flash_attn_mask_opt.comp.cpp
+  flash_attn_split_k_reduce.comp.cpp
+  floor.comp.cpp
+  geglu.comp.cpp
+  geglu_erf.comp.cpp
+  geglu_quick.comp.cpp
+  gelu.comp.cpp
+  gelu_erf.comp.cpp
+  gelu_quick.comp.cpp
+  get_rows.comp.cpp
+  get_rows_quant.comp.cpp
+  group_norm.comp.cpp
+  hardsigmoid.comp.cpp
+  hardswish.comp.cpp
+  im2col.comp.cpp
+  im2col_3d.comp.cpp
+  l2_norm.comp.cpp
+  leaky_relu.comp.cpp
+  log.comp.cpp
+  mul.comp.cpp
+  mul_mat_split_k_reduce.comp.cpp
+  mul_mat_vec.comp.cpp
+  mul_mat_vec_iq1_m.comp.cpp
+  mul_mat_vec_iq1_s.comp.cpp
+  mul_mat_vec_iq2_s.comp.cpp
+  mul_mat_vec_iq2_xs.comp.cpp
+  mul_mat_vec_iq2_xxs.comp.cpp
+  mul_mat_vec_iq3_s.comp.cpp
+  mul_mat_vec_iq3_xxs.comp.cpp
+  mul_mat_vec_nc.comp.cpp
+  mul_mat_vec_p021.comp.cpp
+  mul_mat_vec_q2_k.comp.cpp
+  mul_mat_vec_q3_k.comp.cpp
+  mul_mat_vec_q4_k.comp.cpp
+  mul_mat_vec_q5_k.comp.cpp
+  mul_mat_vec_q6_k.comp.cpp
+  mul_mat_vecq.comp.cpp
+  mul_mm.comp.cpp
+  mul_mm_cm2.comp.cpp
+  mul_mmq.comp.cpp
+  multi_add.comp.cpp
+  neg.comp.cpp
+  norm.comp.cpp
+  opt_step_adamw.comp.cpp
+  opt_step_sgd.comp.cpp
+  pad.comp.cpp
+  pool2d.comp.cpp
+  quantize_q8_1.comp.cpp
+  reglu.comp.cpp
+  relu.comp.cpp
+  repeat.comp.cpp
+  repeat_back.comp.cpp
+  rms_norm.comp.cpp
+  rms_norm_back.comp.cpp
+  rms_norm_partials.comp.cpp
+  roll.comp.cpp
+  rope_multi.comp.cpp
+  rope_neox.comp.cpp
+  rope_norm.comp.cpp
+  rope_vision.comp.cpp
+  round.comp.cpp
+  scale.comp.cpp
+  sigmoid.comp.cpp
+  silu.comp.cpp
+  silu_back.comp.cpp
+  sin.comp.cpp
+  soft_max.comp.cpp
+  soft_max_back.comp.cpp
+  soft_max_large1.comp.cpp
+  soft_max_large2.comp.cpp
+  soft_max_large3.comp.cpp
+  softplus.comp.cpp
+  solve_tri.comp.cpp
+  sqrt.comp.cpp
+  square.comp.cpp
+  ssm_conv.comp.cpp
+  ssm_scan.comp.cpp
+  step.comp.cpp
+  sub.comp.cpp
+  sum_rows.comp.cpp
+  swiglu.comp.cpp
+  swiglu_oai.comp.cpp
+  tanh.comp.cpp
+  timestep_embedding.comp.cpp
+  topk_argsort.comp.cpp
+  topk_moe.comp.cpp
+  topk_nary_search.comp.cpp
+  tri.comp.cpp
+  trunc.comp.cpp
+  upscale.comp.cpp
+  wkv6.comp.cpp
+  wkv7.comp.cpp
+  xielu.comp.cpp
+E:\whisper.cpp\ggml\src\ggml-impl.h(701,108): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+  (compiling source file '../../../../ggml/src/ggml-vulkan/ggml-vulkan.cpp')
+
+E:\whisper.cpp\ggml\src\ggml-impl.h(701,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+  (compiling source file '../../../../ggml/src/ggml-vulkan/ggml-vulkan.cpp')
+
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(1902,50): warning C4267: 'return': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(1921,61): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(1921,29): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(1922,60): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(1922,29): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(1933,61): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(1933,29): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(1934,60): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(1934,29): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(2095,48): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(2096,46): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(2101,36): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(2250,21): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(2251,23): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(2253,23): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(2380,52): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(2380,27): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(2392,20): warning C4267: 'return': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(2399,20): warning C4267: 'return': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(2406,20): warning C4267: 'return': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(2609,41): warning C4101: 'e': unreferenced local variable [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(2831,57): warning C4018: '<': signed/unsigned mismatch [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(4539,9): warning C4003: not enough arguments for function-like macro invocation 'IM2COL' [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(4649,13): warning C4003: not enough arguments for function-like macro invocation 'CREATE_CONVS' [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7132,48): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7132,32): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7134,39): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7134,23): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7220,42): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7220,29): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7221,45): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7221,35): warning C4244: 'initializing': conversion from 'uint64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7279,121): warning C4244: 'argument': conversion from 'const uint64_t' to 'int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7279,115): warning C4244: 'argument': conversion from 'const uint64_t' to 'int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7279,38): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7279,25): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7282,74): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7282,68): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7289,44): warning C4319: '~': zero extending '_Ty' to 'uint64_t' of greater size [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7289,44): warning C4319:         with [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7289,44): warning C4319:         [ [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7289,44): warning C4319:             _Ty=uint32_t [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7289,44): warning C4319:         ] [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7289,23): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7295,69): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7295,63): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7295,57): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7428,125): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7434,29): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7435,29): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7438,38): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7442,38): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7452,45): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7452,41): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7452,35): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7452,29): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7452,22): warning C4244: 'argument': conversion from 'uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7451,15): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7451,9): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7450,21): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7450,15): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7450,9): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7569,210): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7569,204): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7569,198): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7583,117): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7583,111): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7583,105): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7588,92): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7588,86): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7588,80): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7688,59): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7695,29): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7696,29): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7697,29): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7700,38): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7704,38): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7709,23): warning C4244: 'initializing': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7737,54): warning C4244: 'argument': conversion from 'uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7897,40): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7897,33): warning C4244: 'initializing': conversion from 'uint64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7898,44): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7898,37): warning C4244: 'initializing': conversion from 'uint64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7899,44): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7899,37): warning C4244: 'initializing': conversion from 'uint64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7969,87): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(7969,32): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8038,36): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8038,25): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8039,36): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8039,25): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8040,36): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8040,25): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8108,124): warning C4244: 'argument': conversion from 'const uint64_t' to 'int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8108,118): warning C4244: 'argument': conversion from 'const uint64_t' to 'int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8108,38): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8108,25): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8111,77): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8111,71): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8117,44): warning C4319: '~': zero extending '_Ty' to 'uint64_t' of greater size [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8117,44): warning C4319:         with [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8117,44): warning C4319:         [ [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8117,44): warning C4319:             _Ty=uint32_t [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8117,44): warning C4319:         ] [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8117,23): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8151,32): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8272,125): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8279,29): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8280,29): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8283,38): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8287,38): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8297,61): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8297,32): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8297,21): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8297,15): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8297,9): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8296,45): warning C4244: 'argument': conversion from 'uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8295,39): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8295,33): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8295,27): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8295,21): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8295,15): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8295,9): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8346,210): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8346,204): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8346,198): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8360,114): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8360,108): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8365,89): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8365,83): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8419,58): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8468,59): warning C4244: 'argument': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8474,29): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8477,38): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8482,23): warning C4244: 'initializing': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8651,32): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8651,25): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8652,32): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8652,25): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8653,32): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8653,25): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8654,32): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8654,25): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8656,26): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8656,24): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8657,26): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8657,24): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8658,16): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8659,25): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8659,23): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8686,23): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8836,34): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(8836,32): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9247,47): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?) [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9331,89): warning C4244: 'argument': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9331,76): warning C4244: 'argument': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9401,48): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9401,36): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9432,24): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9433,26): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9521,61): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9521,29): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9522,60): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9522,29): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9532,61): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9532,29): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9533,60): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9533,29): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9543,61): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9543,29): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9544,60): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9544,29): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9554,61): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9554,29): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9555,60): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9555,29): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9565,61): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9565,29): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9566,61): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9566,29): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9567,60): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9567,29): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9578,61): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9578,29): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9579,60): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9579,29): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9936,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9936,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9937,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9937,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9938,50): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9938,34): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9951,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9951,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9952,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9952,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9953,50): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9953,34): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10050,17): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10078,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10078,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10079,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10079,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10080,50): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10080,34): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10093,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10093,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10094,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10094,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10095,50): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10095,34): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10108,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10108,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10109,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10109,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10110,50): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10110,34): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10123,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10123,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10124,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10124,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10125,50): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10125,34): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10138,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10138,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10139,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10139,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10140,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10140,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10239,41): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10239,29): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10240,39): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10240,27): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10241,40): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10241,28): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10242,38): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10242,26): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10243,38): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10243,26): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10274,40): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10274,28): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10360,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10360,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10361,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10361,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10362,50): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10362,34): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10375,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10375,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10418,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10418,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10419,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10419,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10420,50): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10420,34): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10543,29): warning C4244: '/=': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10545,46): warning C4267: '*=': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10547,46): warning C4267: '*=': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10556,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10556,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10557,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10557,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10558,50): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10558,34): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10593,59): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10593,31): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10607,32): warning C4319: '~': zero extending 'uint32_t' to 'size_t' of greater size [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10634,19): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10635,19): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10636,19): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10638,19): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10639,19): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10640,19): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10674,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10674,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10675,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10675,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10676,50): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10676,34): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10709,54): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10709,40): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10850,44): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10850,32): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10937,39): warning C4244: 'initializing': conversion from 'int64_t' to 'int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10937,25): warning C4244: 'initializing': conversion from 'int64_t' to 'const int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10938,39): warning C4244: 'initializing': conversion from 'int64_t' to 'int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10938,25): warning C4244: 'initializing': conversion from 'int64_t' to 'const int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10939,44): warning C4244: 'initializing': conversion from 'int64_t' to 'int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(10939,29): warning C4244: 'initializing': conversion from 'int64_t' to 'const int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11022,62): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11034,20): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11035,20): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11118,20): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11119,20): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11120,16): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11262,28): warning C4244: '=': conversion from 'int64_t' to '_Ty', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11262,28): warning C4244:         with [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11262,28): warning C4244:         [ [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11262,28): warning C4244:             _Ty=uint32_t [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11262,28): warning C4244:         ] [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11297,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11297,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11298,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11298,35): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11299,50): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11299,34): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11321,47): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11321,23): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11322,31): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11322,23): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11323,43): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11323,23): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11325,31): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11325,23): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11326,43): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11326,23): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11328,31): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11328,23): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11329,42): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11329,23): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11331,59): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11331,33): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11332,59): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11332,33): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11335,50): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11335,26): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11387,20): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11388,20): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11389,20): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11390,20): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11400,13): warning C4244: '=': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11401,13): warning C4244: '=': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11402,13): warning C4244: '=': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11404,13): warning C4244: '=': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11405,13): warning C4244: '=': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11406,24): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11407,18): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11408,30): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11409,22): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11410,18): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11411,48): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11412,42): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11413,36): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11421,37): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11421,24): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11468,35): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11468,23): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11469,35): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11469,23): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11471,33): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11471,22): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11473,34): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11473,23): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11474,34): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11474,23): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11475,34): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11475,23): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11529,26): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11530,27): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11531,26): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11532,24): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11533,24): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11534,25): warning C4244: '=': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11535,25): warning C4244: '=': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11536,25): warning C4244: '=': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(11537,25): warning C4244: '=': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(13127,43): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(13247,37): warning C4101: 'e': unreferenced local variable [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(13771,39): warning C4244: 'initializing': conversion from 'const int64_t' to 'int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(13771,24): warning C4244: 'initializing': conversion from 'const int64_t' to 'const int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(14124,84): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(14133,83): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(14142,79): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(14151,78): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(14681,17): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(14681,17): warning C4244:         with [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(14681,17): warning C4244:         [ [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(14681,17): warning C4244:             _Ty=uint64_t [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(14681,17): warning C4244:         ] [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(14790,42): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(14970,30): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(14971,30): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(15197,44): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?) [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(15264,52): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(15264,34): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(15265,52): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(15265,34): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(15313,58): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(15313,40): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(15314,59): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(15314,41): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(15541,37): warning C4101: 'e': unreferenced local variable [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(15544,36): warning C4101: 'e': unreferenced local variable [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(6385,111): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+      E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(6385,111):
+      the template instantiation context (the oldest one first) is
+          E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(6924,13):
+          see reference to function template instantiation 'void ggml_vk_dispatch_pipeline<vk_mat_mat_push_constants>(ggml_backend_vk_context *,vk_context &,vk_pipeline &,const std::initializer_list<vk::DescriptorBufferInfo> &,const T &,std::array<uint32_t,3>)' being c
+  ompiled
+          with
+          [
+              T=vk_mat_mat_push_constants
+          ]
+
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9656,43): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+      E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9656,43):
+      the template instantiation context (the oldest one first) is
+          E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9940,5):
+          see reference to function template instantiation 'void ggml_vk_op_f32<vk_op_binary_push_constants>(ggml_backend_vk_context *,vk_context &,const ggml_tensor *,const ggml_tensor *,const ggml_tensor *,const ggml_tensor *,ggml_tensor *,ggml_op,PC &&)' being compi
+  led
+          with
+          [
+              PC=vk_op_binary_push_constants
+          ]
+
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9656,31): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9722,55): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9722,31): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9724,39): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9724,31): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9725,51): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9725,31): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9727,39): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9727,31): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9728,50): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9728,31): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9730,58): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9730,34): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9740,38): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9740,31): warning C4244: 'initializing': conversion from 'uint64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9742,33): warning C4244: 'initializing': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9742,31): warning C4244: 'initializing': conversion from 'const uint64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9743,33): warning C4244: 'initializing': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9743,31): warning C4244: 'initializing': conversion from 'const uint64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9744,33): warning C4244: 'initializing': conversion from 'const uint64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9744,31): warning C4244: 'initializing': conversion from 'const uint64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9746,44): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9746,31): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9747,42): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9747,31): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9748,42): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9748,31): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9768,41): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9768,30): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9769,42): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9769,31): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9770,42): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9770,31): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9771,42): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9771,31): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9817,25): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9820,37): warning C4244: '/=': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9822,54): warning C4267: '*=': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9824,54): warning C4267: '*=': conversion from 'size_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9831,22): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9858,25): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9861,22): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9877,44): warning C4244: 'initializing': conversion from 'const int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9877,32): warning C4244: 'initializing': conversion from 'const int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9878,43): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9878,32): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9879,43): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+E:\whisper.cpp\ggml\src\ggml-vulkan\ggml-vulkan.cpp(9879,32): warning C4244: 'initializing': conversion from 'int64_t' to 'const uint32_t', possible loss of data [E:\whisper.cpp\build\ggml\src\ggml-vulkan\ggml-vulkan.vcxproj]
+     Creating library E:/whisper.cpp/build/ggml/src/ggml-vulkan/Release/ggml-vulkan.lib and object E:/whisper.cpp/build/ggml/src/ggml-vulkan/Release/ggml-vulkan.exp
+  ggml-vulkan.vcxproj -> E:\whisper.cpp\build\bin\Release\ggml-vulkan.dll
+  Building Custom Rule E:/whisper.cpp/ggml/src/CMakeLists.txt
+  ggml-backend-dl.cpp
+  ggml-backend-reg.cpp
+  Generating Code...
+     Creating library E:/whisper.cpp/build/ggml/src/Release/ggml.lib and object E:/whisper.cpp/build/ggml/src/Release/ggml.exp
+  ggml.vcxproj -> E:\whisper.cpp\build\bin\Release\ggml.dll
+  Building Custom Rule E:/whisper.cpp/src/CMakeLists.txt
+  whisper.cpp
+  Auto build dll exports
+     Creating library E:/whisper.cpp/build/src/Release/whisper.lib and object E:/whisper.cpp/build/src/Release/whisper.exp
+  whisper.vcxproj -> E:\whisper.cpp\build\bin\Release\whisper.dll
+  Building Custom Rule E:/whisper.cpp/examples/CMakeLists.txt
+  common.cpp
+  common-ggml.cpp
+  common-whisper.cpp
+  grammar-parser.cpp
+  Generating Code...
+  common.vcxproj -> E:\whisper.cpp\build\examples\Release\common.lib
+  Building Custom Rule E:/whisper.cpp/examples/deprecation-warning/CMakeLists.txt
+  deprecation-warning.cpp
+  main.vcxproj -> E:\whisper.cpp\build\bin\Release\main.exe
+  Building Custom Rule E:/whisper.cpp/tests/CMakeLists.txt
+  test-vad.cpp
+E:\whisper.cpp\tests\test-vad.cpp(74,64): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data [E:\whisper.cpp\build\tests\test-vad.vcxproj]
+  test-vad.vcxproj -> E:\whisper.cpp\build\bin\Release\test-vad.exe
+  Building Custom Rule E:/whisper.cpp/tests/CMakeLists.txt
+  test-vad-full.cpp
+E:\whisper.cpp\tests\test-vad-full.cpp(40,5): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data [E:\whisper.cpp\build\tests\test-vad-full.vcxproj]
+  test-vad-full.vcxproj -> E:\whisper.cpp\build\bin\Release\test-vad-full.exe
+  Building Custom Rule E:/whisper.cpp/examples/bench/CMakeLists.txt
+  bench.cpp
+  whisper-bench.vcxproj -> E:\whisper.cpp\build\bin\Release\whisper-bench.exe
+  Building Custom Rule E:/whisper.cpp/examples/cli/CMakeLists.txt
+  cli.cpp
+  whisper-cli.vcxproj -> E:\whisper.cpp\build\bin\Release\whisper-cli.exe
+  Building Custom Rule E:/whisper.cpp/examples/quantize/CMakeLists.txt
+  quantize.cpp
+E:\whisper.cpp\examples\common.h(267,41): warning C4244: '=': conversion from 'double' to 'int', possible loss of data [E:\whisper.cpp\build\examples\quantize\whisper-quantize.vcxproj]
+  (compiling source file '../../../examples/quantize/quantize.cpp')
+
+  whisper-quantize.vcxproj -> E:\whisper.cpp\build\bin\Release\whisper-quantize.exe
+  Building Custom Rule E:/whisper.cpp/examples/server/CMakeLists.txt
+  server.cpp
+  whisper-server.vcxproj -> E:\whisper.cpp\build\bin\Release\whisper-server.exe
+  Building Custom Rule E:/whisper.cpp/examples/vad-speech-segments/CMakeLists.txt
+  speech.cpp
+E:\whisper.cpp\examples\common.h(267,41): warning C4244: '=': conversion from 'double' to 'int', possible loss of data [E:\whisper.cpp\build\examples\vad-speech-segments\whisper-vad-speech-segments.vcxproj]
+  (compiling source file '../../../examples/vad-speech-segments/speech.cpp')
+
+E:\whisper.cpp\examples\vad-speech-segments\speech.cpp(120,68): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data [E:\whisper.cpp\build\examples\vad-speech-segments\whisper-vad-speech-segments.vcxproj]
+  whisper-vad-speech-segments.vcxproj -> E:\whisper.cpp\build\bin\Release\whisper-vad-speech-segments.exe
+  Building Custom Rule E:/whisper.cpp/CMakeLists.txt
+
+E:\whisper.cpp>
