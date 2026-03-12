@@ -266,8 +266,10 @@ whisper-cli.exe -m models/ggml-large-v3.bin -f audio.wav
 
 ---
 
-# Project
+# Links
 
 Official repository:
-
 https://github.com/ggml-org/whisper.cpp
+
+Other Vulkan builds:
+https://github.com/jerryshell/whisper.cpp-windows-vulkan-bin
