@@ -86,7 +86,7 @@ Successfully installed
 Open a **Windows Command Prompt** and run:
 ```
 git clone https://github.com/ggml-org/whisper.cpp.git
-
+```
 Example output:
 ```
 Cloning into 'whisper.cpp'...
