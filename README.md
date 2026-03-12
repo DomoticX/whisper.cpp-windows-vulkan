@@ -4,14 +4,6 @@
 ![Vulkan](https://img.shields.io/badge/GPU-Vulkan-orange)
 ![AMD](https://img.shields.io/badge/GPU-AMD-red)
 
-
-# whisper.cpp-windows-vulkan
-
-Original source:  
-https://github.com/ggml-org/whisper.cpp
-
----
-
 # whisper.cpp with VULKAN (AMD GPU) on Windows
 
 ## Works on
