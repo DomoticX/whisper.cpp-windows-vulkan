@@ -5,7 +5,7 @@
 ![AMD](https://img.shields.io/badge/GPU-AMD-red)
 
 
-# whisper.cpp-vulkan
+# whisper.cpp-windows-vulkan
 
 Original source:  
 https://github.com/ggml-org/whisper.cpp
