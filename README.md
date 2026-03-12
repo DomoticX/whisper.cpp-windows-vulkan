@@ -1,7 +1,9 @@
+![whisper.cpp Vulkan support](whisper.cpp_vulkan_banner.jpg)
+
 ![Windows](https://img.shields.io/badge/Platform-Windows-blue)
 ![Vulkan](https://img.shields.io/badge/GPU-Vulkan-orange)
 ![AMD](https://img.shields.io/badge/GPU-AMD-red)
-![whisper.cpp Vulkan support](whisper.cpp_vulkan_banner.jpg)
+
 
 # whisper.cpp-vulkan
 
